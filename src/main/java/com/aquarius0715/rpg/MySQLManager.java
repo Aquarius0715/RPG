@@ -81,7 +81,7 @@ public class MySQLManager {
     クエリ
      */
 
-    public Query query(String query) {
+    public ResultSet query(String query) {
         int data = connects.size() + 1;
         connects.put(connects.size() + 1, new MySQLFunc(this.HOST, this.DB, this.USER, this.PASS, this.PORT));
         if (connects.get(data).open() == null) {
@@ -98,7 +98,7 @@ public class MySQLManager {
             System.out.println("[" + this.conName + "] Error executing query: " + var4.getErrorCode());
             System.out.println(query);
         }
-        return new Query(resultSet, connects.get(data));
+        return resultSet;
     }
 
     public static class Query {
