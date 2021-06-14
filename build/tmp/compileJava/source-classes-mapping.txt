@@ -1,0 +1,13 @@
+com/aquarius0715/rpg/MySQLFunc.java
+ com.aquarius0715.rpg.MySQLFunc
+com/aquarius0715/rpg/MySQLManager.java
+ com.aquarius0715.rpg.MySQLManager
+ com.aquarius0715.rpg.MySQLManager$Query
+com/aquarius0715/rpg/Login.java
+ com.aquarius0715.rpg.Login
+com/aquarius0715/rpg/Stats.java
+ com.aquarius0715.rpg.Stats
+com/aquarius0715/rpg/RPG.java
+ com.aquarius0715.rpg.RPG
+hello_world/Main.java
+ hello_world.Main
